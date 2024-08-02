@@ -1,0 +1,68 @@
+
+/* menu */
+.menu-superior {background-color: #9107bb9d;
+  border-radius: 10px;
+  padding: 8px 15px;
+  transition: background-color 0.3s ease;
+  }
+
+  .menu-superior:hover{ background-color: #7005919d;}
+
+  .inicio-site{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    transition: transform 0.3s ease;
+  }
+  .inicio-site:hover{transform: translateY(-3px);}
+
+  
+ 
+  .itens-menu{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    transition: transform 0.3s ease;
+  }
+
+  .itens-menu:hover{transform: translateY(-3px);
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+/* cards e conteúdo */
+
+.card {
+  background-color: #9107bb9d;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  transition: background-color 0.7s ease, color 0.7s ease, font-size 0.7s ease-in;
+  /* Adicionamos a transição para background-color, color e font-size */
+  padding: 20px; /* Apenas para dar um espaçamento interno ao card */
+}
+
+.card:hover {
+  background-color: #9107bb; /* Nova cor de fundo ao passar o mouse */
+  color: white; /* Nova cor do texto ao passar o mouse */
+  font-size: 20px; /* Novo tamanho da fonte ao passar o mouse */
+  opacity: 0.7;
+  cursor: pointer;}
+
+.catalogo{
+  font-size: 2rem;
+}
+
+.catalogo:hover{ cursor: pointer;
+opacity: 0.5;}
+
+
+
+/* carousel */
+
+.carousel-inner{
+    transition: 0.6s ease;
+    border-radius: 15px;
+    
+  }
+  
+  
+  .rodape{background-color: #500268;}
